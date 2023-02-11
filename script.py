@@ -16,7 +16,7 @@ LOGO = '''
 
 def printAndClearTerminal(text):
     print(text)
-    time.sleep(0.2)
+    time.sleep(0.1)
     os.system('cls' if os.name == 'nt' else 'clear')
 
 def checkAndCreateFolder():
@@ -96,10 +96,10 @@ def decryptFiles():
                 decrypt_file(PATH+"/"+file,key)
         print('Files decrypted successfully!')
     except Exception as e:
-        if f'{e}'.__contains__(' No such file or directory: '):
-            print('Key file not found !, please create a key file with the name key.key in the root folder !')
+        if fileExists("./key.key"):
+            print('key.key file is not there !')
         else:
-            print(f'{e}')
+            print('Wrong key or the file is already decrypted !')
 
 if __name__ == "__main__":
     print(f'''        
