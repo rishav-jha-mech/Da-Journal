@@ -16,7 +16,7 @@
 
 1. Clone the repository
    ```
-        git clone https://rishav-jha-mech.github.io/da-journal
+        git clone https://github.com/rishav-jha-mech/Da-Journal.git
    ````
 2. Install the requirements
    ```
