@@ -16,7 +16,7 @@
 
 1. Clone the repository
    ```
-        git clone https://rishav-jha.github.io/da-journal
+        git clone https://rishav-jha-mech.github.io/da-journal
    ````
 2. Install the requirements
    ```
@@ -31,4 +31,9 @@
 
 1. At first create the files for the month using 1st option
 2. Then when you are done with writing the journal, use the 2nd option to encrypt the file [Note : that the file will be encrypted and you will be given a key in the root folder `key.key` to decrypt it]
-3. Now when you want to access the journal again use the 3rd option to decrypt the file and read it. [Note : that you will need the key in the root folder `key.key` to decrypt the file]
+3. Now when you want to access the journal again use the 3rd option to decrypt the file and read it. [Note : that you will need the key in the root folder `key.key` to decrypt the file]2
+
+## Future Plans
+
+- Add a web interface to access the journal.
+- Better CLI interface.
